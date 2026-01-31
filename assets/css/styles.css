@@ -167,10 +167,15 @@ a{
     object-fit: cover;
     border-radius: 50%;
     border: 3px solid #6c63ff;
+
+    transition:
+        transform 0.8s ease-in-out,
+        box-shadow 0.8s ease-in-out;
 }
 
 .hero-image img:hover{
-    transform: scale(1.05);
+    transform: scale(1.03);
+    box-shadow: 0 0 22px rgba(108, 99, 255, 0.35);
 }
 
 .timeline{
